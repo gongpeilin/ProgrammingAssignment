@@ -1,0 +1,18 @@
+# Exclude virtual environment
+venv/
+env/
+Scripts/
+Lib/
+Include/
+
+# Exclude SQLite database
+# db.sqlite3
+
+# Exclude Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and temp files
+*.log
+*.tmp

@@ -4,6 +4,7 @@ env/
 Scripts/
 Lib/
 Include/
+*.env
 
 # Exclude SQLite database
 # db.sqlite3

@@ -4,8 +4,7 @@ env/
 Scripts/
 Lib/
 Include/
-iitproject/
-*.env
+.env
 
 # Exclude SQLite database
 # db.sqlite3
@@ -20,4 +19,4 @@ __pycache__/
 *.tmp
 
 #some addtionals files
-settings.py
+# settings.py

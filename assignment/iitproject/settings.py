@@ -126,6 +126,10 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     "restaurant/static",
 ]
+
+#Addtional on 01.12.24
+STATIC_ROOT = '/home/ubuntu/iit/ProgrammingAssignment/assignment/iitproject/static'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 

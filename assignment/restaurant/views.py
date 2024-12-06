@@ -9,22 +9,12 @@ from django.views.generic.detail import DetailView
 from django.http import HttpResponse
 
 
-
 # Create your views here.
 def home(request):
     return render(request, 'index.html')
 
 def about(request):
     return render(request, 'about.html')
-
-# def book(request):
-#     form = BookingForm()
-#     if request.method == 'POST':
-#         form = BookingForm(request.POST)
-#         if form.is_valid():
-#             form.save()
-#     context = {'form':form}
-#     return render(request, 'book.html', context)
 
 #utilize the CreateView class to create a view for the Booking model
 class BookCreateView(CreateView):
@@ -64,9 +54,6 @@ def display_menu_item(request, pk=None):
 def success(request):
     latest_booking = Booking.objects.latest('id')
     return render(request, 'bookConfirm.html', {'booking': latest_booking})
-
-# def success2(request):
-#     return HttpResponse('Booking was Cancelled Successfully')
 
 #  New add on 30.11.24
 def disaply_booking_item(request, pk=None):

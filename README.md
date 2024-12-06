@@ -20,4 +20,5 @@ To run it locally, you may follow the belwo steps:
    You can find the requirements.txt in the root folder.
 3) for data sensitive, i didn't upload the database file: sqlite in Github, you may run the python manage.py migrate
     to rebuilt the related tables.
-4) Once it is ready, you can access the folder assignment and run the command python manage runserver to access it locally.
+4) Once it is ready, you can copy the folder assignment to the new set-up Django virtual environment folder 
+    and run the command python manage runserver to access it locally.
